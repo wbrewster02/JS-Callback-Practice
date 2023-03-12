@@ -6,21 +6,21 @@ let direction = null;
 let x = 100;
 let y = 250;
 
-// function moveCharacter(){
-// if(direction === 'west'){
-//     x = x - 1
-// }
-// if(direction === 'north'){
-//     y = y + 1
-// }
-// if(direction === 'east'){
-//     x = x + 1
-// }
-// if(direction === 'south'){
-//     y = y - 1
-// }}
-// character.style.left = x + 'px'
-// character.style.bottom = y + 'px'
+function moveCharacter(){
+if(direction === 'west'){
+    x = x - 1
+}
+if(direction === 'north'){
+    y = y + 1
+}
+if(direction === 'east'){
+    x = x + 1
+}
+if(direction === 'south'){
+    y = y - 1
+}}
+character.style.left = x + 'px'
+character.style.bottom = y + 'px'
 
 
 function handleDirectionChange(direction){
