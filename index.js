@@ -37,30 +37,7 @@ function handleDirectionChange(direction){
     character.style.bottom = y + 'px'
 }
 
-document.addEventListener('keydown', function(e){
-    if(e.repeat)return;
 
-    if(e.key === 'ArrowLeft'){
-        direction = 'west'
-        console.log('left pressed')
-    }
-    if(e.key === 'ArrowUp'){
-        direction = 'north'
-        console.log('up pressed')
-    }
-    if(e.key === 'ArrowRight'){
-        direction = 'east'
-        console.log('right pressed')
-    }
-    if(e.key === 'ArrowDown'){
-        direction = 'south'
-        console.log('down pressed')
-    }
-})
-
-document.addEventListener('keyup', function(e){
-    direction = null
-})
 
 
 
